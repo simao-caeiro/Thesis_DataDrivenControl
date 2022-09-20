@@ -1,4 +1,4 @@
-# Data-Driven Control of UAVs
+# Thesis: Data-Driven Control of UAVs
 
 ## SPC vs DeePC
 To analyse the case of the deterministic linear system, run main_wo_noise.py.

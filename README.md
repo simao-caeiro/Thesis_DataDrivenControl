@@ -1,13 +1,23 @@
-# Thesis: Data-Driven Control of UAVs
+# Thesis: Data-Driven Control Strategies for Rotary Wing Aerial Vehicles
 
-## SPC vs DeePC
-To analyse the case of the deterministic linear system, run main_wo_noise.py.
+## DeePC algorithm provided by the authors
+To analyse the linear case, run DeePC_Authors+Linear\DeePC_main.m.
 
-To simulate the case of the non-deterministic linear system, run main_noise.py.
+To simulate the nonlinear case, run DeePC_Authors+Nonlinear\DeePC_main.m.
 
-The results are created using Python code and the toolboxes:
-- numpy
-- control
-- matplotlib
-- scipy
-- CasADi
+## Novel DeePC algorithm
+To analyse the linear case, run DeePC+Linear\DeePC_main.m.
+
+To simulate the nonlinear case, run DeePC+Nonlinear\DeePC_main.m.
+
+## LQR
+To simulate a nonlinear response using LQR controller, run LQR\LQR_main.m.
+
+## MPC
+To simulate a linear response using MPC controller, run MPC\Linear\MPC_main.m.
+
+To simulate a nonlinear response using MPC controller, run MPC\Nonlinear\MPC_main.m.
+
+## Results
+
+The results are obtained using Matlab code and the osqp toolbox. To install this toolbox, run install_osqp.m.
